@@ -123,7 +123,7 @@ h1{
 
 .nav-bar{
   background: #A9A9A9;
-  height: 20%;
+  height: 8%;
 }
 
 nav ul li{
@@ -145,7 +145,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #313131;
+  color: #4c4c4c;
 }
 /*|||| Main - About selection ||||*/
 
@@ -182,7 +182,13 @@ footer ul li a{
 }
 
 footer ul li a:hover{
-  color: #313131;
+  color: #4c4c4c;
+}
+/*|||| Contact - Main selection ||||*/
+.background-img-project{
+  background: #323232;
+  height: 900px;
+  background-size: cover;
 }
 
 /*|||| Contact - Main selection ||||*/
@@ -191,7 +197,11 @@ footer ul li a:hover{
   height: 600px;
 }
 
-
+.background-img-contact{
+  background: #D3D3D3;
+  height: 900px;
+  background-size: cover;
+}
 
 
 
