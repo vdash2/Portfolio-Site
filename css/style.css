@@ -94,6 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*|||| * Style ||||*/
+#active{
+  color: green;
+}
 /*|||| Grid Style ||||*/
 .full-width{
   width: 100%;
@@ -104,7 +108,7 @@ textarea {
 }
 
 
-/*|||| Main - Header selection ||||*/
+/*|||| Main/Project/Contact - Header selection ||||*/
 .background-img{
   height: 900px;
   background-image: url('../img/background.jpeg');
@@ -113,14 +117,13 @@ textarea {
 
 h1{
   color: #F5F5F5;
-  font-size: 36px;
-  padding: 0 20px;
-  margin-top: 10;
+  font-size: 30px;
+  padding: 0 20px 15px;
 }
 
 .nav-bar{
   background: #A9A9A9;
-  height: 8%;
+  height: 20%;
 }
 
 nav ul li{
@@ -144,8 +147,17 @@ nav ul li a{
 nav ul li a:hover{
   color: #313131;
 }
+/*|||| Main - About selection ||||*/
 
-/*|||| Main - Footer selection ||||*/
+.about-div{
+  color: #F5F5F5;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 15rem auto;
+  width: 75%;
+}
+
+
+/*|||| Main/Project/Contact - Footer selection ||||*/
 
 footer{
   background: #A9A9A9;
@@ -173,9 +185,11 @@ footer ul li a:hover{
   color: #313131;
 }
 
+/*|||| Contact - Main selection ||||*/
 
-
-
+.contact{
+  height: 600px;
+}
 
 
 
