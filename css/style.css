@@ -147,8 +147,31 @@ nav ul li a:hover{
 
 /*|||| Main - Footer selection ||||*/
 
+footer{
+  background: #A9A9A9;
+  height: 5rem;
+}
 
+footer h3{
+  font-size: 26px;
+  text-align: right;
+  color: #F5F5F5;
+  font-weight: 900;
+}
 
+footer ul li{
+  list-style: none;
+  display: inline;
+  padding: 0 .5rem 0 0;
+}
+
+footer ul li a{
+  color: #F5F5F5;
+}
+
+footer ul li a:hover{
+  color: #313131;
+}
 
 
 
