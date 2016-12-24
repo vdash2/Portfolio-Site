@@ -94,9 +94,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*|||| Grid Style ||||*/
+.full-width{
+  width: 100%;
+}
+.half-width{
+  width: 50%;
+  float: left;
+}
+/*|||| Header selection ||||*/
 
+h1{
+  color: #F5F5F5;
+  font-size: 36px;
+  padding: 0 20px;
+  margin-top: 10;
+}
 
+.nav-bar{
+  background: #EE0000;
+  height: 12%;
+}
+nav ul li{
+  list-style: none;
+  display: inline;
+  font-size: 24px;
+  border-right: 1px solid #626262;
+  padding: 0 10px;
+}
 
+nav ul li:last-child{
+  border: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #F5F5F5;
+  font-weight: 900;
+}
+
+nav ul li a:hover{
+  color: #313131;
+}
 
 
 
