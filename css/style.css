@@ -102,7 +102,14 @@ textarea {
   width: 50%;
   float: left;
 }
-/*|||| Header selection ||||*/
+
+
+/*|||| Main - Header selection ||||*/
+.background-img{
+  height: 900px;
+  background-image: url('../img/background.jpeg');
+  background-size: cover;
+}
 
 h1{
   color: #F5F5F5;
@@ -112,9 +119,10 @@ h1{
 }
 
 .nav-bar{
-  background: #EE0000;
-  height: 12%;
+  background: #A9A9A9;
+  height: 8%;
 }
+
 nav ul li{
   list-style: none;
   display: inline;
@@ -136,6 +144,10 @@ nav ul li a{
 nav ul li a:hover{
   color: #313131;
 }
+
+/*|||| Main - Footer selection ||||*/
+
+
 
 
 
