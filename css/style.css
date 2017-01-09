@@ -94,127 +94,221 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*|||| * Style ||||*/
-#active{
-  color: green;
+/*|| general Style ||*/
+
+body{
+  background: #AAAAAA;
+  width: 100%;
+  padding-top: 50px;
 }
-/*|||| Grid Style ||||*/
-.full-width{
+
+/*|| Gride Style ||*/
+.full-width {
   width: 100%;
 }
-.half-width{
-  width: 50%;
+
+.half-width {
+  float: left;
+}
+/*|| Header Style ||*/
+.navbar-default {
+  border-bottom: 5px solid #000;
+}
+.navbar-default h1 {
+  display: none;
+}
+
+.navbar-default {
+  background: #191919;
+  color: #e5e5e5;
+ }
+
+ .navbar-default ul li {
+   display: inline-block;
+   text-decoration: none;
+   text-align: right;
+   font-size: 35px;
+   padding: 5px 20px 0;
+   display: none;
+ }
+
+ .navbar-default ul li a {
+   color: #e5e5e5;
+   text-decoration: none;
+   font: 900;
+ }
+ .navbar-default ul li a:hover {
+   color: #e50000;
+   text-decoration: none;
+   font: 900;
+   border-top: 3px solid #ff0000;
+
+ }
+
+ /*|| Section Header Style ||*/
+ #header{
+   background: url("../img/background.jpeg");
+   background-size: cover;
+   height: 400px;
+   padding: 0 5%;
+ }
+
+ .welcome{
+   margin: 0 auto;
+   color: #ccc;
+   font-size: 30px;
+   text-align: center;
+   text-shadow: 2px 2px 3px black;
+ }
+
+ figcaption p {
+   text-align: center;
+ }
+ #header i {
+   font-size: 5rem;
+   text-shadow: 2px 2px 3px black;
+ }
+/*|| Skills Style ||*/
+.skill{
+  margin: 0 auto;
+  width: 90%;
+}
+ figure{
+   float: left;
+   color: #fff;
+   padding: 5px;
+ }
+ figcaption{
+   padding-top: 5px;
+ }
+ progress{
+   width: 100%;
+   /*background color to breka the progress bar*/
+   background: green;
+
+ }
+
+/*|| Section About Style ||*/
+#about {
+  background: #666;
+}
+
+#about section{
+  height: 800px;
+}
+#about img {
+  width: 190px;
+  height: 200px;
+  border-radius: 0  50% 50% 0 ;
   float: left;
 }
 
-
-/*|||| Main/Project/Contact - Header selection ||||*/
-.background-img{
-  height: 900px;
-  background-image: url('../img/background.jpeg');
-  background-size: cover;
+#about h2 {
+  color: #ccc;
+  font-size: 100px;
+  padding:30px 0 0 100px;
+  float: left;
 }
 
-h1{
-  color: #F5F5F5;
-  font-size: 30px;
-  padding: 0 20px 15px;
-}
-
-.nav-bar{
-  background: #A9A9A9;
-  height: 8%;
-}
-
-nav ul li{
-  list-style: none;
-  display: inline;
+#about p {
+  clear: both;
+  color: #b2b2b2;
+  text-align: center;
+  padding: 20px 10px;
   font-size: 24px;
-  border-right: 1px solid #626262;
-  padding: 0 10px;
 }
 
-nav ul li:last-child{
-  border: none;
+#about hr{
+  margin: 0;
+  border-top: 1px solid #8c8b8b;
+	text-align: center;
 }
 
-nav ul li a{
-  text-decoration: none;
-  color: #F5F5F5;
-  font-weight: 900;
+#about hr:after{
+  content: '§';
+	display: inline-block;
+	position: relative;
+	top: -20px;
+	padding: 0 10px;
+	background: #666;
+	color: #8c8b8b;
+	font-size: 28px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
-nav ul li a:hover{
-  color: #4c4c4c;
-}
-/*|||| Main - About selection ||||*/
-
-.about-div{
-  color: #F5F5F5;
-  background: rgba(0, 0, 0, 0.6);
-  margin: 15rem auto;
-  width: 75%;
+#about h3, .jobs {
+  text-align: center;
 }
 
+/*|| Section Portfolio Style ||*/
 
-/*|||| Main/Project/Contact - Footer selection ||||*/
+#portfolio section {
+  height: 400px;
+  padding: 0;
+  margin: 0
 
-footer{
-  background: #A9A9A9;
-  height: 5rem;
 }
 
-footer h3{
-  font-size: 26px;
-  text-align: right;
-  color: #F5F5F5;
-  font-weight: 900;
+#portfolio img {
+  width: 45rem;
+  margin-top: 15px;
+  -webkit-box-shadow: inset 2px -1px 22px 0px #000;
+  -moz-box-shadow: inset 2px -1px 22px 0px #000;
+  box-shadow: inset 2px -1px 22px 0px #000;
 }
 
-footer ul li{
+.col {
+  clear: both;
+}
+
+/*|| Section Contact Style ||*/
+#contact {
+  background: #ccc;
+  padding-top: 20px;
+  height: 400px;
+}
+#contact h2, #contact h3{
+  text-align: center;
+}
+
+#contact ul li {
   list-style: none;
-  display: inline;
-  padding: 0 .5rem 0 0;
+  display: block;
+  padding-top: 30px;
+
 }
 
-footer ul li a{
-  color: #F5F5F5;
-}
+#contact ul li a {
+  font-size: 27px;
+  color : #fff;
 
-footer ul li a:hover{
-  color: #4c4c4c;
-}
-/*|||| Contact - Main selection ||||*/
-.background-img-project{
-  background: #323232;
-  height: 900px;
-  background-size: cover;
-}
-
-/*|||| Contact - Main selection ||||*/
-
-.contact{
-  height: 600px;
-}
-
-.background-img-contact{
-  background: #D3D3D3;
-  height: 900px;
-  background-size: cover;
 }
 
 
 
+.fa-envelope-o{
+  padding-left: 5rem;
+}
+.fa-commenting-o{
+  padding-left: 15rem;
+}
+/*|| Section Footer Style ||*/
 
+footer ul li {
+  display: inline-flex;
+  float: left;
+  padding-left: 5.5rem;
+}
 
+footer ul li a {
+  color: #fff;
+}
 
-
-
-
-
-
-
-
+footer ul li a:hover {
+  color: #ff0000;
+}
 /* ==========================================================================
 Helper classes
 ========================================================================== */
